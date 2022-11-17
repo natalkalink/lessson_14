@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson_14</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">I'm header</header>
+      <main class="flex">
+         <div class="flex__container">
+            <h1 class="title">Flexbox</h1>
+            <div class="flex__item">
+               <h2 class="flex__title"> Display: flex</h2>
+               <div class="block block-flex">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+                  <div class="block-element">5</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title"> Display:inline-flex</h2>
+               <div class="block block-inline-flex">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+                  <div class="block-element">5</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-wrap: nowrap(defoult)</h2>
+               <div class="block block-flex-nowrap">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+                  <div class="block-element">5</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title"> Flex-wrap: wrap </h2>
+               <div class="block block-flex-wrap">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+                  <div class="block-element">5</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-direction:row(defoult)</h2>
+               <div class="block block-flex-direction-row">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-direction:row-reverse</h2>
+               <div class="block block-flex-direction-row-reverse">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-direction:column</h2>
+               <div class="block block-flex-direction-column">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-direction:column-reverse</h2>
+               <div class="block block-flex-direction-column-reverse">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Justify-content:flex-start</h2>
+               <div class="block block-justify-content-flex-start">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Justify-content:flex-end</h2>
+               <div class="block block-justify-content-flex-end">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Justify-content:cenetr</h2>
+               <div class="block block-justify-content-center">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Justify-content:space-between</h2>
+               <div class="block block-justify-content-space-between">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Justify-content:space-around</h2>
+               <div class="block block-justify-content-space-around">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Justify-content:space-evenly</h2>
+               <div class="block block-justify-content-space-evenly">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item ">
+               <h2 class="flex__title">Align-items : strech</h2>
+               <div class="block block-align-items-strech">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item ">
+               <h2 class="flex__title">Align-items : flex-start</h2>
+               <div class="block block-align-items-flex-start">
+                  <div class="block-element"><span>1</span></div>
+                  <div class="block-element"><span>2</span></div>
+                  <div class="block-element"><span>3</span></div>
+                  <div class="block-element"><span>4</span></div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Align-items : flex-end</h2>
+               <div class="block block-align-items-flex-end">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Align-items : center</h2>
+               <div class="block block-align-items-center">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Align-self : flex-start</h2>
+               <div class="block block-align-self-flex-start">
+                  <div class="block-element">1</div>
+                  <div class="block-element block-element--flex-start">2</div>
+                  <div class="block-element ">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Align-self : center</h2>
+               <div class="block block-align-self-center">
+                  <div class="block-element">1</div>
+                  <div class="block-element block-element--self-center">2</div>
+                  <div class="block-element ">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Align-self:flex-end</h2>
+               <div class="block block-align-self-flex-end">
+                  <div class="block-element">1</div>
+                  <div class="block-element block-element--flex-end">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-grow: 0 (defoult)</h2>
+               <div class="block block-flex-grow-false">
+                  <div class="block-element">1</div>
+                  <div class="block-element block-element--grow-false">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-grow: 1</h2>
+               <div class="block block-flex-grow-true">
+                  <div class="block-element">1</div>
+                  <div class="block-element block-element--grow-true">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-shrink(defouln) & flex-basis</h2>
+               <div class="block block-flex-shrink-flex-basis">
+                  <div class="block-element">1</div>
+                  <div class="block-element block-element--flex-shrink">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Flex-shrink + flex-basis</h2>
+               <div class="block block-flex-shrink-flex-basis">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element block-element--flex-shrinkk">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Gap</h2>
+               <div class="block block-gap">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="flex__item">
+               <h2 class="flex__title">Order</h2>
+               <div class="block block-order">
+                  <div class="block-element">1</div>
+                  <div class="block-element">2</div>
+                  <div class="block-element">3</div>
+                  <div class="block-element">4</div>
+               </div>
+            </div>
+            <div class="cards">
+               <div class="cards__column">
+                  <div class="cards__box box-cards">
+                     <div class="cards__image">
+                        <img src="img/kazki.png" alt="kazki">
+                     </div>
+                     <div class="cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam
+                        quod iure.
+                     </div>
+                     <a href="#" class="cards__button">Button</a>
+                  </div>
+               </div>
+               <div class="cards__column">
+                  <div class="cards__box box-cards">
+                     <div class="cards__image">
+                        <img src="img/kazki.png" alt="kazki">
+                     </div>
+                     <div class="cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam
+                        quod iure.
+                     </div>
+                     <a href="#" class="cards__button">Button</a>
+                  </div>
+               </div>
+               <div class="cards__column">
+                  <div class="cards__box box-cards">
+                     <div class="cards__image">
+                        <img src="img/kazki.png" alt="kazki">
+                     </div>
+                     <div class="cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam
+                        quod iure.
+                     </div>
+                     <a href="#" class="cards__button">Button</a>
+                  </div>
+               </div>
+               <div class="cards__column">
+                  <div class="cards__box box-cards">
+                     <div class="cards__image">
+                        <img src="img/kazki.png" alt="kazki">
+                     </div>
+                     <div class="cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aperiam
+                        quod iure.
+                     </div>
+                     <a href="#" class="cards__button">Button</a>
+                  </div>
+               </div>
+            </div>
+            <div class="section">
+               <div class="section-item item-section">
+                  <div class="item-section__image">
+                     <img src="img/kazki.png" alt="kazki">
+                  </div>
+                  <div class="item-section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum
+                     temporibus nostrum quaerat facere. Illo quidem aperiam incidunt delectus aliquid deserunt maiores
+                     nam ea, nulla eveniet soluta, est totam neque perspiciatis deleniti nisi quaerat veritatis
+                     accusantium provident, animi nesciunt? Praesentium nesciunt quaerat iusto doloribus distinctio
+                     harum eaque excepturi animi facere!
+                  </div>
+               </div>
+               <div class="section-item item-section">
+                  <div class="item-section__image">
+                     <img src="img/kazki.png" alt="kazki">
+                  </div>
+                  <div class="item-section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum
+                     temporibus nostrum quaerat facere. Illo quidem aperiam incidunt delectus aliquid deserunt maiores
+                     nam ea, nulla eveniet soluta, est totam neque perspiciatis deleniti nisi quaerat veritatis
+                     accusantium provident, animi nesciunt? Praesentium nesciunt quaerat iusto doloribus distinctio
+                     harum eaque excepturi animi facere!
+                  </div>
+               </div>
+               <div class="section-item item-section">
+                  <div class="item-section__image">
+                     <img src="img/kazki.png" alt="kazki">
+                  </div>
+                  <div class="item-section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum
+                     temporibus nostrum quaerat facere. Illo quidem aperiam incidunt delectus aliquid deserunt maiores
+                     nam ea, nulla eveniet soluta, est totam neque perspiciatis deleniti nisi quaerat veritatis
+                     accusantium provident, animi nesciunt? Praesentium nesciunt quaerat iusto doloribus distinctio
+                     harum eaque excepturi animi facere!
+                  </div>
+               </div>
+               <div class="section-item item-section">
+                  <div class="item-section__image">
+                     <img src="img/kazki.png" alt="kazki">
+                  </div>
+                  <div class="item-section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum
+                     temporibus nostrum quaerat facere. Illo quidem aperiam incidunt delectus aliquid deserunt maiores
+                     nam ea, nulla eveniet soluta, est totam neque perspiciatis deleniti nisi quaerat veritatis
+                     accusantium provident, animi nesciunt? Praesentium nesciunt quaerat iusto doloribus distinctio
+                     harum eaque excepturi animi facere!
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </div>
+   <div class="footer">I'm footer</div>
+</body>
+
+</html>
